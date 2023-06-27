@@ -1,9 +1,8 @@
 #include <GL/glut.h>
 
 void draw(){
-
-glClear(GL_COLOR_BUFFER_BIT); //background buffer
 glClearColor(1,1,1,1);    //color of background
+glClear(GL_COLOR_BUFFER_BIT); //background buffer
 glLineWidth(3);   //line width
 
 glBegin(GL_TRIANGLES);  //define the shape
